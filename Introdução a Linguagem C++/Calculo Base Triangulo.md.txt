@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+
+		
+float base,altura,area;
+
+int main(){
+	setlocale(LC_ALL, "Portuguese"); // habilita a acentuação para o portugues 
+ 
+printf("Digite a altura:\n");
+scanf("%f",&base);
+
+printf("Digite a base:\n");
+scanf("%f",&altura);
+
+area = (base * altura)/2;
+
+printf(" A area do triangulo sera %2.2f\n", area);
+
+
+ 	system ("pause");
+	
+return 0;
+}
